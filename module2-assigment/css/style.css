@@ -1,50 +1,100 @@
+/* assigment 2 coursera */
+
+/* Styling*/
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-
 }
+
 body {
   background-color: white;
-  font-size: 120%;
-  font-family: sans-serif;
-  color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
+
 h1 {
-	text-align: center;
 	margin-bottom: 15px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
 }
-h2 {
-	text-align: right;
-	font-size: -30%;
-	background-color: pink;
+
+section {
+  position: relative;
+  padding: 20px;
+  width: 90px;
 }
+
 p {
-	background-color: gray;
-	border: 1px;
-	width: 90%;
-	height: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: system-ui;
-	color: black;
+  position: relative;
+  clear: right;
 }
 
-#p1 {
-	background-color: pink;
-	text-align: right;
-	font-size: 10%;
+div{
+  position: relative;
+  background-color: gray;
+  border: 3px solid black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
-/* Responsive Design. */
+.box1 {
+  float: right;
+  width: 150px;
+  padding: 4px;
+  margin: -3px -3px 0px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: #ffc3cc;
+}
+
+.box2 {
+  float: right;
+  width: 160px;
+  padding: 4px;
+  margin: -3px -3px 0px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  color: white;
+  background-color: #e70000;
+}
+
+.box3{
+  float: right;
+  width: 150px;
+  padding: 4px;
+  margin: -3px -3px 0px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  color: black;
+  background-color: #ffe9a6;
+}
+
+.content {
+  padding: 4px;
+  border: none;
+  background-color: gray;
+  margin: 5px;
+  height: 150px;
+  color: black;
+  overflow: auto;
+}
+
+/* Responsive Design */
 .row {
-	width: 100%;
+	width: 90%;
 }
 
 
-/********** WEBSTIE VIEW**********/
-@media (min-width: 1200px) {
-	 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+/********** DESKTOP VIEW**********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .co-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
   .col-lg-1 {
@@ -88,10 +138,12 @@ p {
 
 
 /********** TABLET VIEW **********/
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    margin-left: auto;
+    margin-right: auto;
   }
   .col-md-1 {
     width: 8.33%;
@@ -137,6 +189,7 @@ p {
 
 .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
+    width: 100%;
  }
  .col-sd-1 {
     width: 8.33%;
