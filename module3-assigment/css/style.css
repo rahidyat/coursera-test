@@ -61,6 +61,7 @@ text-align: center;
 
 li.hidden-sm.hidden-md.hidden-lg {
     background-color: white;
+    border-bottom: 1px solid;
 }
 
 .navbar-nav {
