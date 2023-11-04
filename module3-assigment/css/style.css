@@ -1,0 +1,87 @@
+/*MODULE3-ASSIGMENT Style*/
+body{
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	font-weight: bold;
+	background-color: white;
+	color: black;
+}
+
+/*HEADER WEBSITE*/
+.navbar{
+background-color: grey;
+border: 2px solid black;
+padding: 0px;
+}
+
+nav.navbar.navbar-inverse {
+	border-radius: 0;
+}
+
+.container
+{
+	background-color: grey;
+}
+
+.text-center{
+	font-size: 30px;
+}
+
+h1{
+	font-weight: bolder;
+	margin top: 2px;
+	margin-bottom: 2px;
+}
+
+h2{
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+}
+
+#mybar ul li a {
+	color: black;
+}
+
+.navbar-brand{
+color: white;
+font-size: 2em;	
+}
+
+.navbar-inverse .navbar-brand {
+	color: black;
+}
+
+.nav-list{
+	margin-top: 10px;
+}
+
+.navbar-inverse .navbar-collapse {
+text-align: center;
+}
+
+li.hidden-sm.hidden-md.hidden-lg {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: -1px -15px;
+}
+
+.navbar-collapse.in {
+    overflow-y: unset;
+}
+
+/*SCREEN SIZE Setting*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 750px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.container {
+		width: 600px;
+	}
+}
