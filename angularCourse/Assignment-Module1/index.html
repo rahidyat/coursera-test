@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <style>
+        body {
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
       .message { font-size: 1.8em; 
         font-weight: bold; 
         text-align: center; 
        }
        .container {
         text-align-last: center ;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;        
        }
-
-      
+       input#lunch-menu {
+        width: 60em;
+       }
     </style>
     <script src="angular.min.js"></script>
     <script src="app.js"></script>
