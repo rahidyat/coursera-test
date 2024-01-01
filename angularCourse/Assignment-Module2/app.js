@@ -48,15 +48,15 @@
                 quantity: 15
             },
             {
-                name: "chocolate cookies",
+                name: "cheese cookies",
                 quantity: 20
             },
             {
-                name: "nice cookies",
+                name: "chocolate cookies",
                 quantity: 10
             },
             {
-                name: "many cookies",
+                name: "greentea cookies",
                 quantity: 30
             },
         ];
