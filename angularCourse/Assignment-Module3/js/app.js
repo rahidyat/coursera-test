@@ -5,11 +5,11 @@ angular.module('NarrowItDownApp', [])
 .controller('NarrowItDownController', NarrowItDownController)
 .service('MenuSearchService', MenuSearchService)
 .directive('foundItems', FoundItemsDirective)
-.constant('ApiBasePath', 'https://coursera-jhu-default-rtdb.firebaseio.com/menu_items.json');
+.constant('ApiBasePath','https://coursera-jhu-default-rtdb.firebaseio.com/menu_items.json');
 
 function FoundItemsDirective() {
   var ddo = {
-    templateUrl: 'templates/found-items.html',
+    templateUrl: 'found-items.html',
     restrict: "E",
     scope: {
       foundItems: '<',
@@ -53,7 +53,7 @@ function MenuSearchService($http, ApiBasePath) {
   service.getMatchedMenuItems = function (searchTerm) {
     return $http({
       method: "GET",
-      url: ApiBasePath
+      url: (ApiBasePath)
     }).then(function (result) {
       if (searchTerm == false)
         return [];
