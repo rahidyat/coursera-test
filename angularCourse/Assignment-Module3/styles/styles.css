@@ -50,3 +50,11 @@ input[type="text"] {
     transform: rotate(360deg);
   }
 }
+
+.block{
+  display: block
+}
+
+.none{
+  display: none;
+}
