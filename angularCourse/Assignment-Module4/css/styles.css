@@ -1,0 +1,22 @@
+body {
+  font-size: 1.5em;
+}
+
+.breadcrumb {
+  background-color: aliceblue;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+ul {
+  max-height: 230px;
+  overflow-y: scroll;
+}
+
+li[ui-sref]:hover {
+  font-weight: bold;;
+}
